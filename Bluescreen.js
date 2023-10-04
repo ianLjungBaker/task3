@@ -7,7 +7,7 @@ export default function blueScreen({navigation, route}) {
     <View style={styles.container}>
       <Text style={{color:"white"}} onPress={() => {
         navigation.navigate("Larger text"); 
-      }}>MAKE ME BLUE</Text>
+      }}>MAKE ME LARGER</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -27,5 +27,4 @@ const styles = StyleSheet.create({
 
 /* Task
 * Make a static FlatList in StartView with three rows "Orange Juice", "Banana Smoothie", "Cider"
-
 * Upload the project to github and provide link below */

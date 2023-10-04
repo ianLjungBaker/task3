@@ -5,7 +5,7 @@ export default function largerText({navigation, route}) {
   return (
     <View style={styles.container}>
       <Text style={{color:"white", fontSize: 80}} 
-      >MAKE ME BLUE</Text>
+      >MAKE ME LARGER</Text>
       <StatusBar style="auto" />
     </View>
   );
