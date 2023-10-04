@@ -14,22 +14,15 @@ export default function App() {
     <NavigationContainer>
       <stack.Navigator>
         <stack.Screen name='Front screen' component={frontScreen}/>
-        <stack.Screen name='blueBackground' component={blueScreen}/>
-        <stack.Screen name='largerText' component={largerText}/>
+        <stack.Screen name='Blue background' component={blueScreen}/>
+        <stack.Screen name='Larger text' component={largerText}/>
       </stack.Navigator>
     </NavigationContainer>
 
   );
-
 };
 
-
-
 /* Task
-Make new project
-* Add navigation to the project
 * Make a static FlatList in StartView with three rows "Orange Juice", "Banana Smoothie", "Cider"
-* Make a view for a row. Blue background with white text.
-* Clicking on a line opens a new view with navigation that shows the text larger
 
 * Upload the project to github and provide link below */

@@ -6,9 +6,9 @@ export default function frontScreen({navigation, route}) {
   return (
     <View style={styles.container}>
       <Button title='hello Filip' onPress={() => {
-        navigation.navigate("blueBackground"); 
+        navigation.navigate("Blue background"); 
       }}/> 
-      
+
       <StatusBar style="auto" />
     </View>
   );
@@ -26,7 +26,5 @@ const styles = StyleSheet.create({
 
 /* Task
 * Make a static FlatList in StartView with three rows "Orange Juice", "Banana Smoothie", "Cider"
-* Make a view for a row. Blue background with white text.
-* Clicking on a line opens a new view with navigation that shows the text larger
 
 * Upload the project to github and provide link below */

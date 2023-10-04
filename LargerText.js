@@ -4,7 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function largerText({navigation, route}) {
   return (
     <View style={styles.container}>
-      <Text>Make me larger!</Text>
+      <Text style={{color:"white", fontSize: 80}} 
+      >MAKE ME BLUE</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +14,7 @@ export default function largerText({navigation, route}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#A7C7E7',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -21,10 +22,7 @@ const styles = StyleSheet.create({
 
 
 /* Task
-Make new project
-* Add navigation to the project
 * Make a static FlatList in StartView with three rows "Orange Juice", "Banana Smoothie", "Cider"
-* Make a view for a row. Blue background with white text.
 * Clicking on a line opens a new view with navigation that shows the text larger
 
 * Upload the project to github and provide link below */
